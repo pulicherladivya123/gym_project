@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <link rel="stylesheet" href="style.css">-->
+    <title>GYM WEBSITE</title>
+
+    <style>
+
+
+body{
+	background-color: rgb(245, 239, 239);
+	position: fixed;
+	
+}
+
+nav{
+	width: 98%;
+	height: 100px;
+	display: flex;
+	position:fixed;	
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: rgb(238, 229, 229);
+	border:2px solid black;
+}
+.menu a{
+	text-decoration: none;
+	color: rgb(172, 20, 20);;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	margin: 10px;
+}
+.logo img{
+	height:100px;
+	width:200px;
+}
+#about{
+	padding: 100px 0px;
+}
+.about-row{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.about-left-col{
+	flex-basis: 50%;
+
+}
+.about-right-col{
+	flex-basis: 50%;	
+	text-align: center;
+}
+.about-right-col img{
+	width: 80%;
+}
+.about-left-col{
+	max-width: 500px;
+	margin:auto;
+}
+a{
+	text-decoration: none;
+}
+
+
+.about-left-col h1{
+	font-size: 50px;
+}
+.about-left-col p{
+	font-size: 20px;
+	text-align: justify;
+	margin:15px 0px;
+}
+
+
+.c-btn{
+	padding: 20px;
+	margin:10px 0px;
+	color: rgb(12, 11, 11);
+	border: none;
+	background: #e07ddb;
+}
+
+
+
+    </style>
+</head>
+<body>
+	
+    <nav>
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png"></a>
+		</div>
+		
+		<div class="menu">
+			<a href="home.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="services.html">Services</a>
+			<a href="gallery.html">Gallery</a>
+			<a href="guides.html">Guide</a>
+			<a href="contact.html">Contact</a>
+		</div>
+	
+	</nav>
+	
+    <section id="about">
+        <div class="about-row">
+            <div class="about-left-col">
+                <h1> About <span id="blue">me</span></h1>
+                <p id="p-title">I am a Gym Trainer</p>
+                <p>
+                    From Rajasthan,doing gym is good for healthy life. it helps our body to fit. it release stress from our mind.From Rajasthan,doing gym is good for healthy life. it helps our body to fit. it release stress from our mind.
+    
+                </p>
+                <p>
+                    From Rajasthan,doing gym is good for healthy life.
+                </p>
+               
+                <a href="guides.html"><button class="c-btn">Back</button></a>
+            </div>
+            <div class="about-right-col">
+                <img src="images/img1.jpg">
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

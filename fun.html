@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <link rel="stylesheet" href="style.css">-->
+    <title>Services</title>
+
+    <style>
+
+
+body{
+	background-color: rgb(245, 239, 239);
+	
+		
+}
+
+nav{
+	width: 98%;
+	height: 100px;
+	display: flex;
+	position:fixed;	
+    top:5px;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: rgb(238, 229, 229);
+	border:2px solid black;
+}
+.menu a{
+	text-decoration: none;
+	color: rgb(172, 20, 20);;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	margin: 10px;
+}
+.logo img{
+	height:100px;
+	width:200px;
+}
+h1{
+            text-align: center;
+            padding-top: 200px;
+            color: blueviolet;
+            
+        }
+        #form{
+            text-align: center;
+            
+            
+        }
+        button{
+            padding:15px;
+            background-color: aqua;
+        }
+</style>
+</head>
+<body>
+	
+    <nav>
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png"></a>
+		</div>
+		
+		<div class="menu">
+			<a href="home.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="services.html">Services</a>
+			<a href="gallery.html">Gallery</a>
+			<a href="guides.html">Guide</a>
+			<a href="contact.html">Contact</a>
+		</div>
+	
+	</nav>
+	<h1>Online Booking For Functional Training</h1>
+    
+    <div id="form">
+    <form action="reg.png">
+        <label for="name">Full Name:</label>
+        <input type="text" name="Name" placeholder="Your Name"id="Username" required><br><br><br>
+        <label for="email">Email Address:</label>
+        <input type="text" name="Email" placeholder="Your Email"id="Email Id" required ><br><br><br>
+        <label for="number">Phone Number:</label>
+        <input type="number" name="Phone Number" placeholder="Your Phone Number"id="Phone Number" required><br><br><br>
+        
+        <label for="Persons">Number of Months:</label>
+        <input type="number" name="Number " placeholder="how long you continue" required><br><br><br>
+        <input type="Submit" Value="Submit" >
+        
+
+    </form>
+    </div>
+    <a href="services.html"><button>Back</button></a>
+</body>
+</html>
